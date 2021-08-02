@@ -14,13 +14,28 @@ body {
         align-items: center;
     }
 
-a.navigation {
-    display: flex;
-    height: 100%;
-    width: 100%;
+    ul {
+        padding:0;
+        margin:0;
+        list-style-type:none;
+        }
+    li {
+        margin-left:67px;
+        margin-right: 60px;
+        float:left;
+       }
+    a {
+        text-decoration: none 
+    }
+    ul li a:hover {
+        color:#0065FC
+    }
+.blue {
+ color:#0065FC
+   
 }
 
-section p {
+p {
 
    display: block;
    margin-block-start: 1em;
