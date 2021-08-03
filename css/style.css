@@ -5,7 +5,7 @@ body {
 #logo {
     height: 50px;
     margin: 20px;
-    justify-items: center;
+    justify-items:start ;
 }
 
 #container {
@@ -41,8 +41,34 @@ p {
    margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
-    margin-inline-end: 0px;    
+    margin-inline-end: 0px;
+    padding-bottom: 15px;    
 }
 
+div#Search_Block {
+    padding-left: 25px;
+}
 
+input#input {
+    border-color: gainsboro;
+    outline-style: none;
+    font-weight: bold;
+    height: 40px;
+    width: 200px;
+    padding-left: 36px;
+    font-size: 14px;
+    
 
+}
+
+button#search_button {
+    background-color: #0065FC;
+    height: 40px;
+    width: 100px;
+    border: #0065FC;
+    float: right;
+    position: absolute;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+}
