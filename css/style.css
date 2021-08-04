@@ -3,72 +3,62 @@ body {
 }
 
 #logo {
-    height: 50px;
-    margin: 20px;
-    justify-items:start ;
-}
+    display: flex;
+    padding-left: 15px;
+    height: 35px;
+    margin: 17px;
+    float: right;}
 
 #container {
     display:flex;
     justify-content: space-between;
-        align-items: center;
-    }
-
+        align-items: center;}
     ul {
         padding:0;
-        margin:0;
-        list-style-type:none;
-        }
+        margin:14px;
+        list-style-type:none;}
     li {
-        margin-left:67px;
-        margin-right: 60px;
-        float:left;
-       }
-    a {
-        text-decoration: none 
-    }
+        padding-right: 58px;
+        float:left;}
+    a { 
+        text-decoration: none}
     ul li a:hover {
-        color:#0065FC
-    }
-.blue {
- color:#0065FC
-   
-}
-
-p {
-
-   display: block;
-   margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-bottom: 15px;    
-}
+        color:#0065FC}
+    .blue {
+        color:#0065FC}
+     
+section#information {
+    padding-left: 35px;
+    padding-bottom: 4px;
+    line-height: 15px;}
 
 div#Search_Block {
-    padding-left: 25px;
-}
-
-input#input {
-    border-color: gainsboro;
-    outline-style: none;
-    font-weight: bold;
-    height: 40px;
-    width: 200px;
-    padding-left: 36px;
-    font-size: 14px;
-    
-
-}
-
-button#search_button {
-    background-color: #0065FC;
-    height: 40px;
-    width: 100px;
-    border: #0065FC;
-    float: right;
-    position: absolute;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    color: white;
-}
+    padding-left: 35px;}
+     button#localisation { 
+         float: left;
+         height: 43px;
+         width: 40px;
+         border-top-left-radius: 10px;
+         border-bottom-left-radius: 10px;
+         background-color: gainsboro;
+         border-style: none;}
+     input#input {
+       border-color: gainsboro;
+       border-style: solid;
+       border-width: 1px;
+       padding-left: 12px;
+       font-weight: bold;
+       height: 43px;
+       width: 200px;
+       font-size: 15px;}
+     button#search_button {
+       background-color: #0065FC;
+       height: 43px;
+       width: 115px;
+       border: #0065FC;
+       float: right;
+       position: absolute;
+       border-top-right-radius: 10px;
+       border-bottom-right-radius: 10px;
+      color: white;}
+      
