@@ -3,18 +3,15 @@ body {
 }
 
 #logo {
-    display: flex;
     padding-left: 15px;
     height: 35px;
-    margin: 17px;
-    float: right;}
+    margin: 17px;}
 
 #container {
     display:flex;
     justify-content: space-between;
         align-items: center;}
     ul {
-        padding:0;
         margin:14px;
         list-style-type:none;}
     li {
