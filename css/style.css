@@ -1,7 +1,8 @@
 body {
     font-family: 'Raleway', sans-serif;
 }
-
+button{
+    border-style: none;}
 #logo {
     padding-left: 15px;
     height: 35px;
@@ -37,8 +38,7 @@ div#Search_Block {
          width: 40px;
          border-top-left-radius: 10px;
          border-bottom-left-radius: 10px;
-         background-color: gainsboro;
-         border-style: none;}
+         background-color: gainsboro;}
      input#input {
        border-color: gainsboro;
        border-style: solid;
@@ -52,10 +52,16 @@ div#Search_Block {
        background-color: #0065FC;
        height: 43px;
        width: 115px;
-       border: #0065FC;
        float: right;
        position: absolute;
        border-top-right-radius: 10px;
        border-bottom-right-radius: 10px;
       color: white;}
       
+
+      
+.filter_title{
+      
+    height: 43px;
+    width: 140px;
+}
