@@ -59,7 +59,12 @@ div#Search_Block {
       color: white;}
       
 
-      
+      div.filters{
+          display: flex;
+          align-items: center;
+          padding-top: 30px;
+          justify-content: space-between;
+      }
 .filter_title{
       
     height: 43px;
