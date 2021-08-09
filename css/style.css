@@ -1,7 +1,6 @@
 body {
     font-family: 'Raleway', sans-serif;
 }
-button:active {outline-style: none;}
 #logo {
     padding-left: 15px;
     height: 35px;
@@ -73,15 +72,19 @@ div#Search_Block {
                align-items: center;
                justify-content: flex-start;
            }
-        .filter_title{
+        a.filter_title{
+          display: flex;
           height: 36px;
           width: auto;
+          align-items: center;
+          border : solid 2px;
           padding-left: 43px;
           border-radius: 50px;
           padding-right: 10px;
           border-color: #f2f2f2;
           background-color: white;
           font-weight: bold;
+          color: black;
         }
         .filter_icon{
             height: 36px;
@@ -92,7 +95,7 @@ div#Search_Block {
             background-color: #deebff;
             color: #0266fc;}
             .filter_title:hover{
-                background-color: #deebff;
+                background-color: #b6cff5;
                 color:#0065FC}
 
     
@@ -116,7 +119,7 @@ div.h_container{
     display: flex;
     justify-content: flex-start;}
 section.host_section{
-    width: 720px;
+    width: 70%;
     height: 500px;
     background-color: #f2f2f2;
     border-radius: 10px;
@@ -141,5 +144,11 @@ aside.most_popular{
         padding-right: 35px;
         padding-top: 17px;
     }
+
+@media (max-width: 400px) {
+    .blue { color: red;}
+}
+    
+
             
 
