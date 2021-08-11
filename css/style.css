@@ -1,6 +1,8 @@
 body {
     font-family: 'Raleway', sans-serif;
 }
+img.h_img {width: 100%;}
+h3{font-weight: 900;}
 #logo {
     padding-left: 15px;
     height: 35px;
@@ -131,24 +133,25 @@ section.host_section{
     display: flex;
     flex-direction: column;
     width: 67%;
-    height: 600px;
+    height: 700px;
     background-color: #f2f2f2;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-left: 30px;
     margin-top: 10px;
     padding-top: 17px;
     font-weight: bold;}
+
 aside.most_popular{
     display: flex;
     justify-content: space-between;
     margin-left: 42px;
     background-color: #f2f2f2;
-    height: 500px;
+    height: 700px;
     margin-top: 10px;
     padding-top: 17px;
     padding-left: 40px;
     width: 20%;
-    border-radius: 10px;
+    border-radius: 20px;
     font-weight: bold;}
     .fa-chart-line{
         padding-right: 35px;
@@ -169,8 +172,13 @@ div#h_picbox{
       margin: 2%;
       display: flex;
       align-items: center;
-      border-radius: 12px 12px 0 0;
-    }
+      border-radius: 12px 12px 0 0;}
+    .h_text{
+        line-height: 6px;
+        margin-left: 16px;}
+    .h_star{display:flex; margin-bottom: 12px; margin-left: 16px;}
+    .h_bstar{color:#0065FC}
+    .h_gstar{color: gainsboro;}
 
 @media (max-width: 400px) {
     div#container{
