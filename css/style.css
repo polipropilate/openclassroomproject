@@ -10,6 +10,8 @@ body {
     display:flex;
     justify-content: space-between;
         align-items: center;}
+        div.nav_bar{display: flex;
+            align-items: center;}
     ul {
         margin:14px;
         list-style-type:none;}
@@ -117,8 +119,13 @@ div#Search_Block {
             padding-left: 10px;}
 div.h_container{
     display: flex;
-    justify-content: flex-start;}
+flex-direction: column;}
+div.h_title{
+    display:flex;
+    height: 78px;
+}
 section.host_section{
+    display: flex;
     width: 70%;
     height: 500px;
     background-color: #f2f2f2;
@@ -144,9 +151,34 @@ aside.most_popular{
         padding-right: 35px;
         padding-top: 17px;
     }
+div#h_picbox{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;}
+    article.h_moz{
+        width: 29%;
+        margin-bottom: 3%;
+        background-color: white;
+        border-radius: 15px;}
+    div.h_image {
+      max-height: 120px;
+      overflow: hidden;
+      margin: 2%;
+      display: flex;
+      align-items: center;
+      border-radius: 12px 12px 0 0;
+    }
 
 @media (max-width: 400px) {
-    .blue { color: red;}
+    div#container{
+        display:flex;
+        align-items: center;
+        height: 100px;
+        border-bottom: solid 2px #f2f2f2;
+    }
+    #logo {margin: 0px;
+    padding-bottom: 40px;}
+    nav{justify-content: space-between;}
 }
     
 
