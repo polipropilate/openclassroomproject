@@ -1,13 +1,16 @@
 body {
     font-family: 'Raleway', sans-serif;
+    margin-left: 220px;
+    margin-right: 220px;
 }
-img.h_img {width: 100%;}
-
+img {width: 100%;
+     height: 100%;}
 h3{font-weight: 900;}
 p{font-weight: 400;}
 #logo {
     padding-left: 15px;
     height: 35px;
+    width: 60%;
     margin: 17px;}
 
 #container {
@@ -142,7 +145,8 @@ section.host_section{
     margin-left: 30px;
     margin-top: 10px;
     padding-top: 17px;
-    font-weight: bold;}
+    font-weight: bold;
+    margin-bottom: 40px;}
     div#h_picbox{
         display:flex;
         flex-wrap: wrap;
@@ -166,6 +170,7 @@ section.host_section{
         .h_star{display:flex; margin-bottom: 12px; margin-left: 16px;}
         .h_bstar{color:#0065FC}
         .h_gstar{color: gainsboro;}
+        .h_gstar fa-star{padding-right:2px;}
 
 aside.most_popular{
     width: 29%;
@@ -173,9 +178,12 @@ aside.most_popular{
     background-color: #F2F2F2;
     border-radius: 20px;
     display: flex;
-    flex-direction: column;}
+    flex-direction: column;
+    margin-bottom: 40px;
+margin-top: 9px;}
     div#pop_container{
         display:flex;
+        justify-content: space-around;
         flex-direction: column;
         align-items: center;}
         div#pop_header{
@@ -187,33 +195,92 @@ aside.most_popular{
             .fa-chart-line{font-weight: 900;
             font-size: 2em;}
             .pop_article{
-                height: 150PX;
+                height: 170PX;
                 background-color: white;
                 border-radius: 20px;
-                display: flex;}
+                display: flex;
+                box-shadow: 0 0 12px rgb(167, 165, 165);}
                 #pop-moz{
                     width: 86%;
-                    height: 505px;
+                    height: 625px;
                     display: flex;
                     flex-direction:column;
-                    justify-content: space-between;
+                    padding-bottom: 15px;
+                    justify-content: space-evenly;
+
                 }
                 div.popular_image{
-                    height: 140px;
-                    width: 20%;
+                    position: center;
+                    height: 160px;
+                    width: 170px;
                     overflow: hidden;
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    border-radius: 12px 0 0 12px;
-                    margin: 1% 1% 1% 1.5%;}
-                    #pop_img img {height: 100%;}
+                    border-radius: 20px 0 0 20px;
+                    padding-left: 3px;
+                    padding-top: 3px;
+                    margin: 1.5% 1.5% 1.5% 1.5%;}
+
                     .pop_img_footer{
                         padding: 0 0 0 3%;
+                        margin:0%;
                         display: flex;
+                        position: absolute;
                         flex-direction: column;
-                        justify-content: space-around;}
-                        .p_star{display:flex; height:33%;align-items: flex-end;}
+                    justify-content: flex-start;
+                    margin-left: 135px;}
+                        .p_star{display:flex; height:33%;}
+
+#act{margin-left: 35px;}
+#act_container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 2% 0 0 0;}
+    .single_act{
+        width: 23%;
+    height: 470px;
+    box-shadow: 2px 3px 12px 1px #d0cece;
+    border-radius: 15px;}
+    .single{
+        height: 88%;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 15px 15px 0 0;}
+    .double_act{
+        width: 23%;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;}
+    .double_act a{
+        display: flex;
+    flex-direction: column;
+    box-shadow: 2px 3px 12px 1px #d0cece;
+    border-radius: 15px;}
+    .double_1{
+        width: 100%;
+    height: 180px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: 15px 15px 0 0;}
+    .double_2{
+        width: 100%;
+    height: 123px;
+    overflow: hidden;
+    display: flex;
+    align-items: baseline;
+    border-radius: 17px 17px 0 0;}
+    #act_container h3{
+        color: black;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 6%;
+    }
 
 
 
