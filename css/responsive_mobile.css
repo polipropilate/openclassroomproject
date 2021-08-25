@@ -1,19 +1,18 @@
-@media screen and (min-width: 635px) and (max-width: 765px) {
+@media screen and (max-width: 765px) {
     header{
     height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 0;
+    padding: 10px;
+    margin-top: 5px;
     }
     header a {
-    width: 52%;
     padding: 0 2% 0 4%;
     }
     h1 {
     width: 50%;
-    height: auto;
     }
     nav{
     height: 50px;
@@ -31,8 +30,42 @@
         border-bottom: 2px solid #F2F2F2;
         padding-bottom: 15px;
     }
+    nav li:hover {
+        border-bottom: 3px solid #0065FC;   
+     }
+     ul li a:hover {
+        border-top: none;
+     }
     #blue{
     width: 21%;
     height: 28%;
     }
+}
+
+@media screen and (max-width: 765px) {
+    #information{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    #information h2 {
+        width: 95%;
+    }
+    #information p {
+        width: 95%;
+    }
+    #Search_Block {
+        width: 95%;
+    }
+    .search_bar {
+      width: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    #search_button{
+        display: none;
+    }
+    #localisation{height: }
+    #input{height: auto;}
 }
