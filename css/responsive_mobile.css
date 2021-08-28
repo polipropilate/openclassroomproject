@@ -66,6 +66,30 @@
     #search_button{
         display: none;
     }
-    #localisation{height: }
-    #input{height: auto;}
+}
+
+@media screen and (max-width: 765px) {
+    div.filters{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 2%;
+        margin-left: 0px;
+    }
+    .double_filter{
+        width: 92%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    div.filter_container{
+        margin-bottom: 2%;
+        padding: 0%;
+    }
+    section.information_i{
+        margin:0;
+        margin-bottom: 5px;
+    }
+    
 }
