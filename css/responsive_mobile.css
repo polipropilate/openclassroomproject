@@ -140,7 +140,17 @@
     aside.most_popular{
         width: 100%;
         border-radius: 0;
-        height: 605px;
+        height: 630px;
+    }
+    a.pop_article {
+        width: 100%;
+    }
+    div#pop-moz {
+        height: 510px;
+        margin-top: 0;
+    }
+    div.popular_image img {
+        width: 100%;
     }
 }
 /* Mozaîque Hebergements à Marseille */
