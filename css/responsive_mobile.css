@@ -88,7 +88,6 @@
         border-radius: 18px;
     }
     .fa-search{
-        font-weight: 550;
         font-size: 1.35em;
     }
     input#input {
@@ -190,7 +189,10 @@
         width: 92%;
         padding-bottom: 2%;
         font-size: 27px;
-        font-weight: 1100;
+    }
+    div.act_header {
+        width: 96%;
+        margin-left: 20px;
     }
     section#act {
         width: 100%;
@@ -218,7 +220,7 @@
         height: auto;
     }
     div.single{
-        height: 150px;
+        height: 160px;
     }
     div.double_act{
         width: 100%;
@@ -244,7 +246,7 @@
 
 @media screen and (max-width: 765px) {
     footer {
-        height: 400px;
+        height: 450px;
     }
     div.footer_c {
         height: 95%;

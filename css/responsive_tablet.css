@@ -41,6 +41,7 @@
         height: 225px;
         justify-content: center;
         flex-direction: row;
+        padding-left: 3%;
     }
     div#pop-moz article{
         width: 33%;
@@ -135,6 +136,7 @@
         flex-direction: row;
         justify-content: flex-end;
         margin-bottom: 1.5%;
+        margin-left: 1.5%;
     }
     div.double_act a{
         width: 45%;
