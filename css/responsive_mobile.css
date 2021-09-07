@@ -154,7 +154,7 @@
 }
 /* Mozaîque Hebergements à Marseille */
 @media screen and (max-width: 765px) {
-    section.host_section{
+    section#host_section{
         width: 92%;
         background: none;
         height: auto;

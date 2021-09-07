@@ -81,7 +81,7 @@
 }
 
 @media screen and (min-width: 765px) and (max-width: 1350px) {
-    section.host_section {
+    section#host_section {
         width: 100%;
         margin: 0;
         height: 1050px;
