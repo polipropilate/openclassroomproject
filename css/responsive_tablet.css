@@ -4,6 +4,10 @@
     }
     header nav ul {
         padding-right: 10px;
+        width: 40%;
+    }
+    header a {
+        padding-top: 20px;
     }
     header {
         padding-bottom: 15px;
