@@ -320,7 +320,7 @@ div#pop_header{
     border-radius: 15px 0 0 15px;
     margin: 1% 1% 1% 1%;}
 .popular_image img{
-    height: 150px;
+    height: 100%;
     object-fit: cover;
 
 }
