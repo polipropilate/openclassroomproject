@@ -37,8 +37,8 @@
      ul li a:hover {
         border-top: none;
     }
-    #blue{
-    width: 21%;
+    .blue{
+    width: 20%;
     height: 28%;
     }
 }
@@ -140,6 +140,7 @@
         width: 100%;
         border-radius: 0;
         height: 630px;
+        padding: 0;
     }
     a.pop_article {
         width: 100%;
